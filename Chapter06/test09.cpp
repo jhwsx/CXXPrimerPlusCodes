@@ -4,7 +4,7 @@
 #include <fstream> // for file I/O
 #include <cstdlib> // for exit() º¯Êý
 
-int main()
+int main_test09()
 {
 	const int SIZE = 60;
 	using namespace std;

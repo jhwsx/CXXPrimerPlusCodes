@@ -13,7 +13,7 @@ int main_02()
 			std::cout << ch;
 		else
 			// 第一种：
-			// std::cout << ++ch;
+			std::cout << ++ch;
 			// 第二种：
 			// std::cout << ch + 1; // 类型提升为 int 了。改成下面这样就好了。
 			// std::cout << char(ch + 1);

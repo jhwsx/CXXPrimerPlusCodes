@@ -5,12 +5,12 @@ const double* f1(const double ar[], int n);
 const double* f2(const double [], int);
 const double* f3(const double *, int);
 
-int main()
+int main_19()
 {
 	using namespace std;
 	double av[3] = {1112.3, 1542.6, 2227.9};
 
-	// 指向函数的指针变量，也就是函数指针
+	// 指向函数的指针变量，也就是函数指针，把函数原型的函数名字换成 (*pf) 就好了
 	const double* (*p1)(const double*, int) = f1;
 	auto p2 = f2; // C++11 自动类型推断
 	const double* (*p22)(const double*, int) = f2; // C++11 之前要这样写

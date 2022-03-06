@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{07cdd861-c67e-464f-83bc-bf684afb00d8}</ProjectGuid>
-    <RootNamespace>Chapter07</RootNamespace>
+    <ProjectGuid>{360d2420-c862-4719-97f7-9bf8d487364a}</ProjectGuid>
+    <RootNamespace>Chapter08</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,38 +140,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="review.cpp" />
-    <ClCompile Include="test01.cpp" />
-    <ClCompile Include="test02.cpp" />
-    <ClCompile Include="test03.cpp" />
-    <ClCompile Include="test04.cpp" />
-    <ClCompile Include="test05.cpp" />
-    <ClCompile Include="test06.cpp" />
-    <ClCompile Include="test07.cpp" />
-    <ClCompile Include="test08_a.cpp" />
-    <ClCompile Include="test08_b.cpp" />
-    <ClCompile Include="test09.cpp" />
-    <ClCompile Include="test10.cpp" />
-    <ClCompile Include="_07_01_calling.cpp" />
-    <ClCompile Include="_07_02_protos.cpp" />
-    <ClCompile Include="_07_03_twoarg.cpp" />
-    <ClCompile Include="_07_04_lotto.cpp" />
-    <ClCompile Include="_07_05_arrfun1.cpp" />
-    <ClCompile Include="_07_06_arrfun2.cpp" />
-    <ClCompile Include="_07_07_arrfun3.cpp" />
-    <ClCompile Include="_07_08_1_const_pointer.cpp" />
-    <ClCompile Include="_07_08_2_function_and_two_dimensional_array.cpp" />
-    <ClCompile Include="_07_08_arrfun4.cpp" />
-    <ClCompile Include="_07_09_strgfun.cpp" />
-    <ClCompile Include="_07_10_strback.cpp" />
-    <ClCompile Include="_07_12_atrctfun.cpp" />
-    <ClCompile Include="_07_13_strctptr.cpp" />
-    <ClCompile Include="_07_19_arfupt.cpp" />
-    <ClCompile Include="_07_11_travel.cpp" />
-    <ClCompile Include="_07_14_topfive.cpp" />
-    <ClCompile Include="_07_15_arrobj.cpp" />
-    <ClCompile Include="_07_16_recur.cpp" />
-    <ClCompile Include="_07_17_ruler.cpp" />
-    <ClCompile Include="_07_18_fun_ptr.cpp" />
+    <ClCompile Include="_8_01_inline.cpp" />
+    <ClCompile Include="_8_02_firstref.cpp" />
+    <ClCompile Include="_8_03_secref.cpp" />
+    <ClCompile Include="_8_04_swaps.cpp" />
+    <ClCompile Include="_8_05_cubes.cpp" />
+    <ClCompile Include="_8_06_strtref.cpp" />
+    <ClCompile Include="_8_07_strquote.cpp" />
+    <ClCompile Include="_8_08_filefunc.cpp" />
+    <ClCompile Include="_8_09_left.cpp" />
+    <ClCompile Include="_8_10_leftover.cpp" />
+    <ClCompile Include="_8_11_funtemp.cpp" />
+    <ClCompile Include="_8_12_twotemps.cpp" />
+    <ClCompile Include="_8_13_twoswap.cpp" />
+    <ClCompile Include="_8_14_temptempover.cpp" />
+    <ClCompile Include="_8_15_choices.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

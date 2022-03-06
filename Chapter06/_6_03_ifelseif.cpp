@@ -2,7 +2,7 @@
 
 int main_03()
 {
-	const int Fave = 27;
+	const int Fave = 27; // fave 表示特别喜爱的人或事物
 	using namespace std;
 	int n;
 	cout << "Enter a number in the range 1-100 to find ";
