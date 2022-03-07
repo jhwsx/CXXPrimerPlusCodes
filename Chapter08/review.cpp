@@ -42,7 +42,7 @@ T maximum(T t1, T t2);
 
 // 8
 template<> box maximum<box>(box b1, box b2);
-int main()
+int main_review()
 {
 	/*
 	1.很短的函数适合定义为内联函数
@@ -122,7 +122,7 @@ int main()
 	/*
 	9.
 	v1 float 类型
-	v2 float 的引用类型
+	v2 float &
 	v3 float &
 	v4 int 类型
 	v5 double 类型

@@ -140,6 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="review.cpp" />
+    <ClCompile Include="test01.cpp" />
+    <ClCompile Include="test02.cpp" />
+    <ClCompile Include="test03.cpp" />
+    <ClCompile Include="test04.cpp" />
+    <ClCompile Include="test05.cpp" />
+    <ClCompile Include="test06.cpp" />
+    <ClCompile Include="test07.cpp" />
     <ClCompile Include="_8_01_inline.cpp" />
     <ClCompile Include="_8_02_firstref.cpp" />
     <ClCompile Include="_8_03_secref.cpp" />
